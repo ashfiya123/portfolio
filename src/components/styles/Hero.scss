@@ -1,0 +1,97 @@
+.hero {
+  min-height: 100vh;
+  background: #0f172a;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-content {
+  max-width: 850px;
+}
+
+.hero h3 {
+  font-size: 1.5rem;
+  color: #cbd5e1;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin: 15px 0;
+
+  background: linear-gradient(90deg, #8b5cf6, #3b82f6);
+  color: transparent;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  color: #cbd5e1;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 2rem;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #8b5cf6;
+  transform: translateY(-5px);
+}
+
+.buttons {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.buttons button {
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  color: white;
+
+  background: linear-gradient(
+    135deg,
+    #8b5cf6,
+    #3b82f6
+  );
+
+  font-size: 1rem;
+}
+
+.outline {
+  background: transparent !important;
+  border: 2px solid #8b5cf6 !important;
+}
+.resume-btn {
+  display: block;
+  background: #8b5cf6;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+}

@@ -1,0 +1,54 @@
+.experience {
+  padding: 100px 8%;
+  background: #111827;
+  color: white;
+}
+
+.experience h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 60px;
+}
+
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  background: #8b5cf6;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  padding: 20px 0;
+  position: relative;
+}
+
+.timeline-content {
+  width: 45%;
+  background: rgba(255,255,255,0.05);
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.timeline-item:nth-child(odd) .timeline-content {
+  margin-left: auto;
+}
+
+.timeline-content h3 {
+  color: #8b5cf6;
+}
+
+.timeline-content span {
+  display: block;
+  margin: 10px 0;
+  color: #cbd5e1;
+}
